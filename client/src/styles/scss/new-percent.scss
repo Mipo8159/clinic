@@ -1,0 +1,70 @@
+.rate_main-rating-bar {
+  margin-bottom: 10px !important;
+}
+
+.about-clinic-section_4
+  .about-clinic-ratebar-div
+  .main-rating-bar
+  .percent_1 {
+  top: 12px !important;
+}
+
+.about-clinic-section_4
+  .about-clinic-ratebar-div
+  .main-rating-bar
+  .percent_2 {
+  top: 62px !important;
+}
+
+.about-clinic-section_4
+  .about-clinic-ratebar-div
+  .main-rating-bar
+  .percent_3 {
+  top: 95px !important;
+}
+
+@media (max-width: 575px) {
+  .about-clinic-section_4
+    .about-clinic-ratebar-div
+    .main-rating-bar
+    .percent_1 {
+    top: 19px !important;
+  }
+
+  .about-clinic-section_4
+    .about-clinic-ratebar-div
+    .main-rating-bar
+    .percent_2 {
+    top: 78px !important;
+  }
+
+  .about-clinic-section_4
+    .about-clinic-ratebar-div
+    .main-rating-bar
+    .percent_3 {
+    top: 116px !important;
+  }
+}
+
+@media (max-width: 370px) {
+  .about-clinic-section_4
+    .about-clinic-ratebar-div
+    .main-rating-bar
+    .percent_1 {
+    top: 24px !important;
+  }
+
+  .about-clinic-section_4
+    .about-clinic-ratebar-div
+    .main-rating-bar
+    .percent_2 {
+    top: 80px !important;
+  }
+
+  .about-clinic-section_4
+    .about-clinic-ratebar-div
+    .main-rating-bar
+    .percent_3 {
+    top: 120px !important;
+  }
+}

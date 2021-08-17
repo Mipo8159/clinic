@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26.821" height="26.821" viewBox="0 0 26.821 26.821">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="26.821" height="26.821" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="login-box-line" clip-path="url(#clip-path)">
+    <g id="login-box-line-2" data-name="login-box-line">
+      <path id="Path_4277" data-name="Path 4277" d="M0,0H26.821V26.821H0Z" fill="none"/>
+      <path id="Path_4278" data-name="Path 4278" d="M4.235,16.528H6.47v5.588H19.881V4.235H6.47V9.823H4.235V3.118A1.118,1.118,0,0,1,5.353,2H21a1.118,1.118,0,0,1,1.118,1.118V23.234A1.118,1.118,0,0,1,21,24.351H5.353a1.118,1.118,0,0,1-1.118-1.118Zm6.705-4.47V8.705l5.588,4.47-5.588,4.47V14.293H2V12.058Z" transform="translate(0.235 0.235)" fill="#848484"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,22 @@
+<svg id="insurance" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="44.742" height="58.738" viewBox="0 0 44.742 58.738">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#60ae7c"/>
+      <stop offset="1" stop-color="#a5f6be"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#c3ffe8"/>
+      <stop offset="0.997" stop-color="#f0fff4"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_3813" data-name="Group 3813" transform="translate(0 0)">
+    <g id="Group_3812" data-name="Group 3812">
+      <path id="Path_4244" data-name="Path 4244" d="M104.021,9.364C94.5,9.364,84.625.535,84.527.446a1.721,1.721,0,0,0-2.312,0c-.1.089-9.944,8.918-19.494,8.918A1.721,1.721,0,0,0,61,11.085V31.693c0,16.695,12.417,23.366,21.757,26.932a1.722,1.722,0,0,0,1.228,0c13.1-5,21.757-12.8,21.757-26.932V11.085A1.721,1.721,0,0,0,104.021,9.364Z" transform="translate(-61 0)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+  <g id="Group_3815" data-name="Group 3815" transform="translate(10.325 17.323)">
+    <g id="Group_3814" data-name="Group 3814">
+      <path id="Path_4245" data-name="Path 4245" d="M163.046,151a12.046,12.046,0,1,0,12.046,12.046A12.06,12.06,0,0,0,163.046,151Zm4.658,11.542-5.163,5.163a1.72,1.72,0,0,1-2.434,0l-1.721-1.721a1.721,1.721,0,0,1,2.434-2.434l.5.5,3.946-3.946a1.721,1.721,0,1,1,2.433,2.434Z" transform="translate(-151 -151)" fill="url(#linear-gradient-2)"/>
+    </g>
+  </g>
+</svg>

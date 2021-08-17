@@ -1,0 +1,346 @@
+.admin-parners-form {
+  box-shadow: 0px 0px 10px rgb(0 0 0 / 9%);
+  border-radius: 15px;
+}
+
+.admin-parners-form img {
+  border-radius: 10px;
+}
+
+.admin-form-control-div {
+  margin-top: 40px;
+}
+
+.admin-form-control {
+  border-radius: 6px;
+  background: #fbfbfb;
+  border: 1px solid #e2e2e2;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.admin-form-control-button {
+  color: white;
+  background-color: var(--color-blue);
+  border-radius: 6px;
+
+  &:hover {
+    background-color: #26405f;
+  }
+}
+
+// ADMIN CARD
+
+.admin-parner-card-div {
+  border-radius: 15px;
+}
+
+.admin-partner-card_div {
+  width: 40% !important;
+}
+
+.admin-standards-grid-item {
+  justify-content: space-evenly;
+}
+
+.admin-parner-card-h6 {
+  width: 90%;
+  margin: 0 auto;
+  font-family: var(--font-firago);
+  font-feature-settings: 'case' on;
+  font-size: 16px;
+}
+
+.admin-standards-scroll-div {
+  width: 90%;
+  margin: 14px auto 0 auto;
+  font-size: 14px;
+  font-family: var(--font-firago);
+}
+
+.admin-standards-scroll-button {
+  margin-top: 32px;
+  margin-bottom: 16px;
+  width: 100%;
+  background-color: var(--color-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 35px;
+  border-radius: 6px;
+  text-decoration: none !important;
+  transition: 0.5s;
+
+  &:hover {
+    background-color: #26405f;
+    color: white;
+  }
+}
+
+.admin-standards-grid-item {
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.admin-partner-card_div {
+  box-shadow: 0px 0px 10px rgb(0 0 0 / 9%);
+  border-radius: 16px;
+}
+
+@media (max-width: 1199px) {
+  .admin-blank-remove {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .admin-standards-grid-item {
+    flex-direction: column !important;
+  }
+
+  .admin-partner-card_div {
+    margin-top: 24px;
+    width: 100% !important;
+  }
+
+  .admin-partners-container {
+    max-width: 375px;
+    margin: auto;
+  }
+}
+
+///////////////////////////
+
+.admin-return-to-main-page {
+  background-color: var(--color-blue);
+  border: 1px solid transparent;
+  color: white;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px rgb(0 0 0 / 9%);
+}
+
+.admin-return-to-main-page h5 {
+  font-size: 14px;
+}
+
+.admin-my-clinic-h4 {
+  font-size: 28px;
+}
+
+.admin-my-clinic-h5 {
+  margin-top: 10px;
+  font-size: 20px;
+  margin-bottom: 2px !important;
+}
+
+.admin-my-clinic-second-h4 {
+  font-size: 20px;
+}
+
+.admin-my-clinic-add {
+  font-size: 22px;
+}
+
+.admin-my-clinic-margin {
+  margin-bottom: 26px;
+}
+
+.admin-my-clinic-name {
+  color: var(--color-blue);
+}
+
+.admin-my-clinic-i {
+  color: var(--color-blue);
+  transition: 0.5s;
+
+  &:hover {
+    color: #0f1a27 !important;
+  }
+}
+
+.admin-my-clinic-add-div form {
+  margin-top: 2px;
+  max-width: 420px;
+}
+.standards-description {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-family: var(--font-firago);
+  font-feature-settings: 'case' on;
+  font-size: 16px;
+}
+
+.admin-my-photo-text {
+  position: absolute;
+  top: 0;
+  right: -30px;
+  top: 200px;
+  width: 423px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 1200px) and (max-width: 1440px) {
+  .admin-my-photo-text {
+    width: 29.375vw;
+    top: 13.8vw;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 700px) {
+  .admin-my-photo-text {
+    width: 61.429vw;
+    top: 29vw;
+  }
+}
+
+@media (max-width: 575px) {
+  .admin-my-photo-text {
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 100%;
+  }
+}
+
+.admin-my-clinic-info {
+  background-color: #fbfbfb;
+  border: 1px solid #e2e2e2;
+  border-radius: 15px;
+}
+
+.admin-my-clinic-info-button {
+  background-color: var(--color-blue);
+  border: none;
+  color: white;
+  padding: 7px 14px;
+  border-radius: 6px;
+  transition: 0.5s;
+
+  &:hover {
+    background-color: #26405f !important;
+  }
+}
+
+.admin-my-after-button {
+  background-color: #fbfbfb;
+  border: 1px solid #e2e2e2;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 !important;
+  width: 34px;
+
+  i {
+    font-size: 24px;
+    color: var(--color-blue) !important;
+
+    &:hover {
+      color: #0f1a27 !important;
+    }
+  }
+}
+
+.admin-my-after-input {
+  background-color: #fbfbfb;
+  border: 1px solid #e2e2e2;
+  border-radius: 8px !important;
+  color: var(--color-blue) !important;
+  outline: none !important;
+  font-size: 21px !important;
+}
+
+.admin-partners-container .slider-card {
+  background-color: #fbfbfb;
+  border: 1px solid #e2e2e2;
+  margin: 0 5px;
+  border-radius: 12px;
+}
+
+.admin-partners-container .reupload-div {
+  margin-top: 10px;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 24px;
+}
+
+.admin-partners-container .emp-icon {
+  transition: 0.3s;
+}
+
+.admin-partners-container .slider-card h5:nth-child(1) {
+  font-size: 19px;
+  color: var(--color-blue);
+}
+
+.admin-partners-container .slider-card h5:nth-child(2) {
+  font-size: 16px;
+  color: var(--color-grey);
+}
+
+.admin-partners-container .slider-card i {
+  color: var(--color-blue) !important;
+  transition: 0.5s;
+
+  &:hover {
+    color: #0f1a27 !important;
+  }
+}
+
+.admin-partners-container .emp-edition {
+  background-color: #ececec;
+  border: 1px solid #d0d0d0;
+  font-size: 17px;
+}
+
+.admin-partners-container .send-emp-card {
+  background-color: var(--color-blue);
+  border: 1px solid var(--color-blue);
+  color: white;
+  font-size: 16px;
+
+  &:hover {
+    color: white !important;
+  }
+
+  i {
+    color: white !important;
+  }
+}
+
+@media (max-width: 1199px) {
+  .admin-partners-row-swap {
+    flex-direction: column-reverse;
+  }
+
+  .admin-my-clinic-add-div form {
+    margin: auto;
+  }
+
+  .admin-my-clinic-h4 {
+    text-align: center;
+  }
+
+  .admin-my-clinic-margin {
+    justify-content: center;
+  }
+
+  .admin-partners-row-swap .clinic-nino {
+    justify-content: center;
+  }
+
+  .admin-my-clinic-add {
+    width: 100%;
+    text-align: center;
+  }
+
+  .admin-return-to-main-page {
+    margin-bottom: 30px;
+  }
+}

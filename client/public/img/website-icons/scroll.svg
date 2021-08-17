@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="3" height="2" viewBox="0 0 3 2">
+  <defs>
+    <clipPath id="clip-path">
+      <rect x="-1" y="202" width="3" height="2" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Scroll_Group_1" data-name="Scroll Group 1" transform="translate(1 -202)" clip-path="url(#clip-path)" style="isolation: isolate">
+    <rect id="Rectangle_1077" data-name="Rectangle 1077" width="1" height="215" fill="#e2e2e2"/>
+  </g>
+</svg>

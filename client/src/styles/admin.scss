@@ -1,0 +1,432 @@
+.admin-text {
+  font-family: var(--font-nino-bold) !important;
+}
+
+.table-grid {
+  display: grid;
+  grid-template-columns: 175px 1fr 250px 200px 300px 100px;
+}
+
+.rate-star {
+  cursor: pointer;
+}
+
+.admin-btn {
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  height: 28px;
+  border-radius: 5px;
+  padding-top: 6px;
+}
+
+.admin-btns {
+  margin-top: -6px;
+}
+
+.admin-btn:hover {
+  background-color: rgb(204, 191, 191);
+}
+
+.self-c {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+}
+
+// NAVIGATION SIDEBAR
+.admin-nav {
+  display: flex;
+  padding-top: 30px;
+  flex-direction: column;
+  align-items: center;
+  background: var(--color-light-blue);
+  width: 350px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  // animation: navbarClose 3s ease forwards;
+}
+
+.admin-sidebar-btn {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  transition: 0.5s ease;
+  &:hover {
+    background: gray;
+  }
+}
+
+.nav-active {
+  width: 85px;
+  transition: 0.5s ease;
+  z-index: 20;
+}
+.nav-inactive {
+  width: 350px;
+  transition: 0.5s ease;
+  z-index: 20;
+}
+
+.admin-reshuffle {
+  margin-left: 150px !important;
+  transition: 0.5s ease;
+}
+
+.admin-nav-a {
+  color: var(----color-font-grey);
+  font-family: var(--font-nino-bold);
+  font-size: 22px;
+}
+
+.admin-nav-li {
+  color: white;
+  margin-bottom: 20px;
+
+  a {
+    transition: 0.5s;
+    text-decoration: none;
+    &:hover {
+      color: var(--color-red);
+    }
+  }
+}
+.admin-nav-ul {
+  margin-top: 25px;
+  margin-left: -50px;
+}
+
+.admin-active {
+  color: va(----color-red);
+}
+
+// AMINATIONS
+@keyframes navbarClose {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(-290px);
+  }
+}
+
+@keyframes navbarOpen {
+  0% {
+    transform: translateX(-290px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.wut {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+// IMAGE UPLOADS
+.cursor-logo {
+  cursor: pointer;
+  height: 125px;
+  position: relative;
+  &:hover .cursor-logo-layout {
+    background: rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease;
+  }
+  .cursor-logo-layout {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+.cursor-image {
+  cursor: pointer;
+  position: relative;
+  &:hover .cursor-image-layout {
+    background: rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease;
+  }
+  .cursor-image-layout {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+.clinic-name {
+  margin-bottom: 50px;
+}
+
+.clinic-about {
+  font-size: 18px;
+  font-family: var(--font-nino-bold) !important;
+}
+
+.clinic-nino {
+  font-family: var(--font-nino-bold);
+}
+
+.clinic-fira {
+  font-family: var(--font-firago) !important;
+}
+
+.admin-small {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.employee-image {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.reupload-div {
+  cursor: pointer !important;
+  position: relative;
+  height: 125px;
+  width: 125px;
+  overflow: hidden;
+  margin-bottom: 15px;
+  input {
+    cursor: pointer !important;
+  }
+}
+
+.editname {
+  cursor: pointer;
+  &:hover {
+    color: blue !important;
+  }
+}
+.editform {
+  input {
+    font-size: 20px;
+    width: 120px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 0 7px;
+    color: crimson;
+    margin-right: 5px;
+  }
+}
+.sendedit {
+  width: 100%;
+  border-radius: 5px;
+  &:hover i {
+    color: blue !important;
+  }
+}
+
+.clinic-emp {
+  padding: 12px 0;
+  &:hover {
+    border: 1px solid black;
+  }
+  &:hover .emp-icon {
+    opacity: 1;
+    transition: 0.4s ease;
+  }
+  &:hover .edit-emp-card {
+    opacity: 1;
+    transition: 0.4s ease;
+  }
+  &:hover {
+    .remove-emp-card {
+      opacity: 1;
+      transition: 0.4s ease;
+    }
+  }
+}
+
+.emp-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: white;
+  height: 40px;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  border-radius: 50%;
+  opacity: 0;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.edit-emp-card {
+  position: absolute;
+  top: 10%;
+  cursor: pointer;
+  right: 8%;
+  opacity: 0;
+  &:hover {
+    color: blue !important;
+  }
+}
+
+.remove-emp-card {
+  position: absolute;
+  top: 10%;
+  cursor: pointer;
+  left: 8%;
+  color: crimson;
+  opacity: 0;
+
+  &:hover {
+    color: blue !important;
+  }
+}
+
+.emp-edition {
+  background: rgb(213, 211, 211);
+  border-radius: 5px;
+  height: 32px;
+  border: none;
+}
+
+.send-emp-card {
+  &:hover {
+    color: blue !important;
+  }
+}
+
+@import './admin-utils.scss';
+
+.admin-acreditcard {
+  width: 145px;
+  img {
+    width: 100%;
+  }
+}
+
+// STAR RATING
+.fill-star {
+  color: #f8d408;
+}
+
+.star-touch {
+  cursor: pointer;
+}
+
+.partner-hover {
+  position: relative;
+  img {
+    min-width: 90% !important;
+    min-height: 90% !important;
+    margin: auto !important;
+    max-width: 90% !important;
+    max-height: 90% !important;
+    border-radius: 15px;
+  }
+
+  &:hover .partner-close {
+    opacity: 1;
+    transition: 0.4s ease;
+  }
+  &:hover .partner-edit {
+    opacity: 1;
+    transition: 0.4s ease;
+  }
+
+  &:hover .partner-camera {
+    opacity: 1;
+    transition: 0.4s ease;
+  }
+}
+
+.reupload {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  cursor: pointer !important;
+  z-index: 15;
+}
+
+.icon-div {
+  position: absolute;
+  background-color: white;
+  height: 45px;
+  transform: translate(-50%, -50%);
+  width: 45px;
+  opacity: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    transform: translate(-50%, -50%) scale(1.1);
+    transition: 0.3s ease;
+    cursor: pointer;
+  }
+
+  &:hover i {
+    transition: 0.2s ease;
+    cursor: pointer;
+  }
+}
+
+.partner-close {
+  position: absolute;
+  z-index: 10;
+  color: orangered;
+  top: 15%;
+  right: 6%;
+  height: 28px;
+  width: 28px;
+  cursor: pointer;
+  opacity: 0;
+  border-radius: 15%;
+}
+
+.partner-edit {
+  position: absolute;
+  z-index: 10;
+  height: 28px;
+  width: 28px;
+  border-radius: 15%;
+  padding-left: 3px;
+  top: 15%;
+  left: 15%;
+  opacity: 0;
+  color: var(--color-blue);
+}
+
+.partner-camera {
+  top: 50%;
+  left: 50%;
+  cursor: pointer !important;
+}
+
+.admin-nav-active {
+  color: #dd3846 !important;
+}
+
+.card-rate {
+  width: 48px;
+  height: 24px;
+  text-align: center;
+
+  border: none;
+
+  &:focus {
+    border: 1px solid black;
+  }
+}

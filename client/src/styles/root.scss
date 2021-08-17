@@ -1,0 +1,245 @@
+// root START
+
+:root {
+  // colors
+
+  --color-red: #dd3846;
+  --color-black: #000000;
+  --color-grey: #6d6e72;
+  --color-blue: #2d4d74;
+  --color-light-blue: #7691b7;
+  --color-purple: #656ccb;
+  --color-border: #dfdfdf;
+  --color-light-grey: #fbfbfb;
+  --color-dark-grey: #f1f1f1;
+  --color-skyblue: #37ddc9;
+  --color-white: #ffffff;
+  --color-font-grey: #858585;
+  --color-yellow: #fec34f;
+  --color-orange: #f87248;
+  --color-dark-grey-hover: #e2e2e2;
+
+  // color hover
+
+  --color-red-hover: #c4212f;
+
+  // fonts:
+
+  --font-nino-bold: 'BPG Nino Mtavruli Bold', sans-serif; // 1
+  --font-nino: 'BPG Nino Mtavruli' sans-serif; // 2
+  --font-firago: 'FiraGO'; // 3
+  --font-tatishvili: 'GL Tatishvili Metal Bold'; // 4
+  --font-acumin-normal: 'Acumin Pro'; // 5
+  --font-acumin-italic: 'Acumin Pro Italic'; // 6
+  --font-acumin-b-normal: 'Acumin Pro Bold'; // 7
+  --font-acumin-b-italic: 'Acumin Pro Bold Italic'; // 8
+  --font-bebas: 'Bebas Neue', cursive; // 9
+}
+
+// COLORS
+
+// red
+.red-bg {
+  background-color: var(--color-red);
+  transition: 0.5s;
+
+  &:hover {
+    background-color: var(--color-red-hover);
+  }
+}
+
+// dark grey
+.dark-grey-bg {
+  background-color: var(--color-dark-grey);
+  transition: 0.5s;
+
+  &:hover {
+    background-color: var(--color-red);
+    color: white !important;
+  }
+}
+
+// root END
+input {
+  padding: 10px;
+  font-family: var(--font-firago);
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+}
+
+.guj-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 30px;
+}
+
+.mob-version {
+  display: none;
+}
+
+@media (max-width: 1199px) {
+  .mob-version {
+    display: block;
+  }
+  .desk-version {
+    display: none;
+  }
+}
+
+////////// ////////////////// ////////////
+.admin-container {
+  .places-main p {
+    display: none;
+  }
+
+  .places-main img {
+    width: 50% !important;
+    margin: 0 !important;
+  }
+
+  .places-main {
+    width: 60px !important;
+    height: 60px !important;
+    border: none;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 9%);
+  }
+
+  .places-main.active {
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 22%);
+  }
+
+  .flexible-places {
+    justify-content: flex-end;
+  }
+}
+
+.no-hover {
+  display: none;
+}
+.search-hover-div {
+  position: absolute;
+  top: 105%;
+  z-index: 10;
+  left: 0;
+  right: 0;
+  border-radius: 10px;
+  border: 1px solid rgb(225, 221, 221);
+  overflow-y: scroll;
+  max-height: 350px;
+  background: white;
+  padding: 5px 0;
+
+  &::-webkit-scrollbar-track {
+    background: white;
+  }
+}
+
+.search-hover {
+  background: white;
+  border-bottom: 1px solid rgb(245, 242, 242);
+  margin-left: 5px;
+  border-radius: 10px;
+  &:hover {
+    background: rgb(223, 219, 219);
+  }
+}
+
+// - - - - - - - - - categories page  - - - - - - - - //
+
+.cat_header {
+  font-family: var(--font-nino-bold);
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  color: var(--color-grey);
+  margin-top: 53px;
+  margin-bottom: 10px;
+}
+.cat-seemore {
+  background: rgb(135, 132, 132);
+
+  &:hover {
+    background: rgb(141, 139, 139);
+  }
+}
+
+.text-div {
+  color: var(--color-grey) !important;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-nino-bold);
+  }
+
+  p {
+    font-family: var(--font-firago) !important;
+  }
+
+  li {
+    font-family: var(--font-firago);
+    list-style-image: url('/img/website-icons/round-and-tick.svg');
+  }
+}
+
+.clinic-text-div,
+.text-div-page {
+  color: var(--color-grey);
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    display: block;
+    text-align: center;
+    font-family: var(--font-nino-bold);
+  }
+  h1 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+
+  li {
+    list-style: disc;
+  }
+}
+
+.text-div-page {
+  padding: 0 20px;
+  h1 {
+    font-size: 28px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+}
+
+.admin-mail-text {
+  cursor: pointer;
+
+  &:hover {
+    color: crimson;
+  }
+}
+
+.admin-mail-delete:hover {
+  transform: scale(1.1);
+}
+
+.form-text {
+  input,
+  textarea {
+    color: black !important;
+  }
+}

@@ -1,0 +1,81 @@
+.drop__cont {
+  display: none;
+}
+
+.sign__up__head {
+  grid-column: 1/6;
+  margin-top: 13px;
+  width: 100%;
+  height: 62px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  background: #f2f7fe;
+  font-family: 'BPG Nino Mtavruli';
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+  color: #848484;
+}
+
+.form__order {
+  width: 460px;
+  margin-top: 55px !important;
+  margin: auto;
+  form {
+    margin-bottom: 45px;
+  }
+  @media (max-width: 550px) {
+    width: 100%;
+  }
+}
+.my__label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.my__label__important {
+  font-family: FiraGO;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: left;
+  color: #757575;
+
+  span {
+    color: #dd3846;
+  }
+}
+
+.my__important {
+  font-family: FiraGO;
+  font-weight: normal;
+  font-size: 16px;
+  color: #dd3846;
+}
+.name__input {
+  width: 100%;
+  height: 59px;
+  border-radius: 8px;
+  background: #f3f3f3;
+  border: none;
+  font-family: FiraGO;
+  font-weight: normal;
+  font-size: 16px;
+  padding-left: 25px;
+  margin-top: 15px;
+  color: #757575;
+}
+
+.sign__up__btn {
+  width: 100%;
+  height: 59px;
+  border-radius: 8px;
+  background: #436592;
+  font-family: 'BPG Nino Mtavruli';
+  font-weight: bold;
+  font-size: 20px;
+  color: #fff;
+  border: none;
+}
